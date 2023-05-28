@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Shirohana</title>
+</head>
+<header>
+    <div id="header_container">
+        <nav>
+            <a href="index.html"><img src="images/logo.svg" alt="" class="logo" id="main_logo"></a>
+                <a href="index.html">
+                    <h2 id="website_name">Shirohana</h2>
+                </a>
+                <ul>
+                    <li><a href="./websites/gallery.html">Gallery</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#offerings">Recommendations</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="./websites/forums.html">Forums</a></li>
+                    <li><input type="text" id="search_header_box" placeholder="Search"></input></li>
+                </ul>
+        
+                <div class="search_container"><img src="images/search.png" alt="" class="logo" id="search_container"></div>
+        </nav>
+    </div>
+</header>
+<body background="images/backgrounds/top.svg">
+    <br> 
+        <div class="grid_layout">
+            <div class="mainpage" id="home" background>
+                <!-- <img src="images/mainpage/Ao-Sora-unscreen.gif" alt="" id="background_img"> -->
+                <div class="mainpage" id="left">
+                    <div class="main_page_container">
+                        <img src="images/butterfly.gif" alt="" class="butterfly">
+                        <p id="main_page_text">Memories as</p>
+                        <p id="main_page_text">Words Made Pictures</p>
+                        <!-- <p id="main_page_text">Alone Together</p> -->
+                        <p id="main_page_text_subheader">In Solitude, Least We Are Alone</p>
+                        <a href="./websites/signin.html">
+                            <button class="mainpage" id="button">
+                                Sign In
+                                <img src="images/logos/sign in.png" alt="" class="mainpage" id="logo">
+                            </button>
+                        </a>
+                        <a href="./websites/signup.html">
+                            <button class="mainpage" id="button">
+                                Sign Up
+                                <img src="images/logos/sign_up.png" alt="" class="mainpage" id="logo">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+        </div>
+            <div class="grid_layout" id="right">
+                <div id="background_img_overlay"></div>
+                <video autoplay muted loop id="background_img">
+                    <source src="images/mainpage/Ao Sora.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="services" id="about">
+            <div class="services" id="left">
+                <div class="title_container">
+                    <!-- <img src="images/icons/animated_icons/book_visual.png" alt="" id="box_logo_title"> -->
+                    <img src="images/icons/animated_icons/writing.gif" alt="" id="box_logo_animated_title">
+                    <h2 id="title">Create Memories Together</h2>
+                </div>
+                <p id="description">Shirohana strives and aim to be able to deliver and share information in relation to the visual novel focusing on the tags related to heart breaking phenomenon found in stories.</p>
+                <div class="social_logos_container">
+                    <a href="https://www.facebook.com"><img src="images/logos/facebook.png" alt="" id="social_logos"></a>
+                    <a href="https://instagram.com"><img src="images/logos/instagram.png" alt="" id="social_logos"></a>
+                    <a href="https://twitter.com"><img src="images/logos/twitter.png" alt="" id="social_logos"></a>
+                    <a href="https://youtube.com"><img src="images/logos/youtube.png" alt="" id="social_logos"></a>
+                    <a href="https://patreon.com"><img src="images/logos/patreon.png" alt="" id="social_logos"></a>
+                </div>
+            </div>
+            <div class="services" id="right">
+                <div id="grid_container">
+                    <div class="box" id="description_box">
+                        <div class="box_item" id="box1">
+                            <img src="images/icons/animated_icons/shelves.png" alt="" id="box_logo">
+                            <img src="images/icons/animated_icons/shelves.gif" alt="" id="box_logo_animated">
+                            <p id="box_label">Neat Archive</p>
+                            <p id="label_description">
+                                Deliver the information in a neat and organized manner to ensure that the information is easily accessible and understandable.
+                            </p>
+                        </div>
+                        <div class="box_item" id="box2">
+                            <img src="images/icons/animated_icons/magic-wand.png" alt="" id="box_logo">
+                            <img src="images/icons/animated_icons/magic.gif" alt="" id="box_logo_animated">
+                            <p id="box_label">Explore Magic</p>
+                            <p id="label_description">
+                                Visual Novels immerses you through choices you make and the consequences that follows every decision you make.
+                            </p>
+                        </div>
+                        <!-- <label for="box1" id="box_label">Archive</label> -->
+                        <div class="box_item" id="box3">
+                            <img src="images/icons/animated_icons/think.png" alt="" id="box_logo">
+                            <img src="images/icons/animated_icons/think.gif" alt="" id="box_logo_animated">
+                            <p id="box_label">Imagine</p>
+                            <p id="label_description">
+                                 No matter how dark the story is, there is always a light at the end of the tunnel.
+                            </p>
+                        </div>
+                        <div class="box_item" id="box4">
+                            <img src="images/icons/animated_icons/cure.png" alt="" id="box_logo">
+                            <img src="images/icons/animated_icons/cure.gif" alt="" id="box_logo_animated">
+                            <p id="box_label">Cure</p>
+                            <p id="label_description">
+                                 Every heart is broken and cured, by a single dose of a drug called love.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="offerings" id="offerings">
+            <div class="services" id="left">
+                <div class="box">
+                    <a href="websites/atri.html">
+                        <div class="box_item_pic_container">
+                            <div class="box_vn_logo_container"><img src="images/vn_pic/atri logo.png" alt="" id="box_vn_logo"></div>
+                            <img src="images/vn_pic/atri my dear moments.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                    <a href="websites/summerpockets.html">
+                        <div class="box_item_pic_container">
+                            <div class="box_vn_logo_container"><img src="images/vn_pic/summerpockets logo.png" alt="" id="box_vn_logo"></div>
+                            <img src="images/vn_pic/summerpockets_horizontal.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                    <a href="websites/zanki-zero.html">
+                        <div class="box_item_pic_container">
+                            <div class="box_vn_logo_container"><img src="images/vn_pic/zanki-zero-logo.png" alt="" id="box_vn_logo"></div>
+                            <img src="images/vn_pic/zanki zero indiv.webp" alt="" id="box_image">
+                        </div>
+                    </a>
+                    <a href="websites/katawa shoujo.html">
+                        <div class="box_item_pic_container">
+                            <div class="box_vn_logo_container"><img src="images/vn_pic/katawa shoujo logo.png" alt="" id="box_vn_logo"></div>
+                            <img src="images/vn_pic/katawa shojo.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="services" id="right">
+                <div class="indiv_title_container" id="visual_novels">
+                    <img src="images/icons/animated_icons/book_visual.png" alt="" id="indiv_logo_icons">
+                    <img src="images/icons/animated_icons/book_visual.gif" alt="" id="indiv_anim_icons">
+                    <h2 id="title">Visual Novels</h2>
+                </div>
+                <p id="description">A visual novel (Japanese: ビジュアルノベル, Hepburn: bijuaru noberu), often abbreviated as VN, is a form of digital semi-interactive fiction. Visual novels are often associated with and used in the medium of video games, but are not always labeled as such themselves. They combine a textual narrative with static or animated illustrations and a varying degree of interactivity. (Lebowits, et al, 2011)</p>
+            </div>
+        </div>
+        <div class="offerings" id="offerings">
+            <div class="services" id="left">
+                <div class="indiv_title_container">
+                    <img src="images/icons/animated_icons/magic-wand-2.png" alt="" id="indiv_logo_icons">
+                    <img src="images/icons/animated_icons/magic-wand.gif" alt="" id="indiv_anim_icons">
+                    <h2 id="title_left">Light Novels</h2>
+                </div>
+                <p id="description">A light novel (Japanese: ライトノベル, Hepburn: raito noberu) is a style of young adult novel primarily targeting high school and middle school students.The term "light novel" is a wasei-eigo, or a Japanese term formed from words in the English language. Light novels are often called ranobe (ラノベ) or, in English, LN. -Morissi, Kim (2016) </p>
+                </div>
+            <div class="services" id="right">
+                <div class="box">
+                    <a href="websites/gallery.html#light_novels">
+                        <div class="box_item_pic_container">
+                            <div class="ln_logo_container"><h3 id="ln_title_recommendation">Parasite in Love</h3><h2 id="ln_author_recommendation"> Sugaru Miaki</h2></div>
+                            <img src="images/ln_pic/parasite-in-love.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                    <a href="websites/gallery.html#light_novels">
+                        <div class="box_item_pic_container">
+                            <div class="ln_logo_container"><h3 id="ln_title_recommendation">Starting Over</h3><h2 id="ln_author_recommendation"> Sugaru Miaki</h2></div>
+                            <img src="images/ln_pic/starting-over-light-novel-1.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                    <a href="websites/gallery.html#light_novels">
+                        <div class="box_item_pic_container">
+                            <div class="ln_logo_container"><h3 id="ln_title_recommendation">Pain Pain, Go Away!</h3><h2 id="ln_author_recommendation"> Sugaru Miaki</h2></div>
+                            <img src="images/ln_pic/pain-pain.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                    <a href="websites/gallery.html#light_novels">
+                        <div class="box_item_pic_container">
+                            <div class="ln_logo_container"><h3 id="ln_title_recommendation">Three Days of Happiness</h3><h2 id="ln_author_recommendation"> Sugaru Miaki</h2></div>
+                            <img src="images/ln_pic/three-days-of-happiness-light-novel-1.jpg" alt="" id="box_image">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="contact">
+        <div class="services" id="left">
+            <div class="about_container">
+                <p id="about_description">*In Theorii</p>
+                <img src="images/logos/anime-single.png" alt="" id="about_picture">
+                <div class="indiv_title_container">
+                    <img src="images/icons/animated_icons/camera.png" alt="" id="indiv_logo_icons">
+                    <img src="images/icons/animated_icons/camera.gif" alt="" id="indiv_anim_icons">
+                    <h2 id="title_about">About Me</h2>
+                </div>
+                <p id="label_description"> &nbsp; &nbsp; &nbsp; &nbsp;Hello! I am Dhominick, whom created this archive for me to show a comprehensive list of all the visual novels that I have read through out my life whom made me see and appreciate life as it is. Thanks to that, I was able to keep up my chin and hold it high. I hope you too can see how such words create a deep impact not just on our hearts but through the veins of our souls.</p>
+            </div>
+        </div>
+        <div class="services" id="right">
+            <div class="title_container">
+                <div class="indiv_title_container">
+                    <img src="images/icons/animated_icons/contact.png" alt="" id="indiv_logo_icons">
+                    <img src="images/icons/animated_icons/contact.gif" alt="" id="indiv_anim_icons">
+                    <h2 id="title_about">Contact Us</h2>
+                </div>
+                <p id="label_description">“Welcome to our website! We’re glad you’re here. Our mission is to provide you with the best possible experience while you’re here. We hope you find what you’re looking for and if you have any questions or concerns, please don’t hesitate to contact us."
+                </p>
+                <br>
+                <p id="label_description">Thanks for stopping by! Any support is well appreciated. UwU</p> <br>
+            </div>
+            <div class="social_logos_container">
+                <a href="https://www.facebook.com"><img src="images/logos/facebook.png" alt="" id="social_logos"></a>
+                <a href="https://instagram.com"><img src="images/logos/instagram.png" alt="" id="social_logos"></a>
+                <a href="https://twitter.com"><img src="images/logos/twitter.png" alt="" id="social_logos"></a>
+                <a href="https://youtube.com"><img src="images/logos/youtube.png" alt="" id="social_logos"></a>
+                <a href="https://patreon.com"><img src="images/logos/patreon.png" alt="" id="social_logos"></a>
+            </div>
+            </div>
+        </div>
+        </div>
+</body>
+<footer>
+    <div class="footer">
+        <div class="footer_container">
+                <!-- <h2 id="footer_title">Contact Me</h2>
+                <p id="footer_description">Email: </p> -->
+            <div class="footer_logos_container">
+                <a href="https://www.facebook.com"><img src="images/logos/facebook.png" alt="" id="footer_logos"></a>
+                <a href="https://instagram.com"><img src="images/logos/instagram.png" alt="" id="footer_logos"></a>
+                <a href="https://twitter.com"><img src="images/logos/twitter.png" alt="" id="footer_logos"></a>
+                <a href="https://youtube.com"><img src="images/logos/youtube.png" alt="" id="footer_logos"></a>
+                <a href="https://patreon.com"><img src="images/logos/patreon.png" alt="" id="footer_logos"></a>
+            </div>
+            <img src="images/logo.svg" alt="" id="footer_logo">
+            <div id="footer_text_container">
+                <p id="footer_text">© 2023 Project Shirohana. All Rights Reserved.</p>
+                <p id="footer_text">© freepik. All Rights Reserved.</p>
+                <p id="footer_text">© Visual Novel Database. All Rights Reserved.</p>
+            </div>
+    </div>
+</footer>
+</html>
